@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zona Sul Segura</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<!--FAVICONS-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
+<!--ICONS-->
+    <script src="https://kit.fontawesome.com/448406df21.js" crossorigin="anonymous"></script>
+<!--FONTE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> 
+
+<!--NAVEGAÇÃO DO MENU-->
+<div class="fundo">
+    <section class="navigation">
+
+<!--MOBILE SCREEN-->  
+<div class="navigation-mobile">      
+        <nav class="navbar navbar-dark" style="padding: 0px">
+            <div class="container-fluid mobile">
+              <a class="navbar-brand mobile" href="index.html"><img src="./imagens/logo.png" alt="logo" width="80px" height="76px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Zona Sul Segura</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="institucional.html">Institucional</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formulario_mapa.html">Mapeamento</a>
+                      </li>
+                    
+                  </ul>
+                  
+                </div>
+              </div>
+            </div>
+</div>
+<!--WIDE SCREEN-->
+            <nav class="nav-container">
+                <div class="logo desktop"> 
+                    <a href="./index.html"><img src="./imagens/logo.png" alt="logo" width="80px" height="76px"></a>
+                </div>
+                <!--LINKS DO MENU-->              
+                <div class="links">
+                    <a href="./institucional.html">INSTITUCIONAL</a>-
+                    <a href="./formulario_mapa.html">MAPEAMENTO</a>           
+                </div>
+                    </nav>
+                    </section>
+                    </header>
+          </nav>
+    </section>
+    </header>
+
+<main>
+<!--SLIDER DO BANNER-->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+<!--BANNER 1-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./imagens/banner1.png" class="d-block w-100" alt="Seja bem-vindo ao nosso site!">
+            </div>
+<!--BANNER 2-->            
+            <div class="carousel-item"><a href="institucional.html">
+                <img src="./imagens/banner2.png" class="d-block w-100" alt="...">
+            </a>
+            </div>
+<!--BANNER 3-->
+         <div class="carousel-item"><a href="formulario_mapa.html">
+            <img src="./imagens/banner3.png" class="d-block w-100" alt="...">
+         </a>
+        </div>
+        </div>
+<!--BOTÕES DO SLIDER-->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+        
+<div style="height: 29px; background-color: #3e4144;"></div>
+<!--MENU DE ATALHOS-->
+<div class="container text-center container-atalhos">
+    <div class="atalhos">
+      <div class="col atalhos-col"><a href="https://www.webdenuncia.org.br">
+        <i class="fa-solid fa-exclamation fa-3x icon atalhos-icon" style="color: #ffffff;"></i>
+    Webdenúncia
+        </a>
+    </div>
+
+    <div class="col atalhos-col"><a href="https://www2.policiamilitar.sp.gov.br/ocorrenciaweb">
+        <i class="fa-solid fa-volume-xmark fa-3x icon atalhos-icon" style="color: #ffffff;"></i>
+    Ocorrência de barulho
+        </a>
+    </div>
+
+    <div class="col atalhos-col"><a href="http://www.ssp.sp.gov.br/servicos/mapaTelefones.aspx">
+        <i class="fa-solid fa-building-shield fa-3x icon atalhos-icon" style="color: #ffffff;"></i>
+    Delegacias Próximas
+        </a>
+    </div>
+
+    <div class="col atalhos-col"><a href="https://www.delegaciaeletronica.policiacivil.sp.gov.br/ssp-de-cidadao/home">
+        <i class="fa-solid fa-comment-dots fa-3x icon atalhos-icon" style="color: #ffffff;"></i>
+    Delegacia Eletrônica
+        </a>
+    </div>
+</div>
+</div>
+
+
+
+</div>
+  </div>
+
+</div>  
+
+
+
+<!--NOTÍCIAS-->  
+<br>     
+        <h3 class="news-title">Últimas notícias <hr></h3>
+<br>
+                <!--NOTÍCIA PRINCIPAL-->        
+            <div class="container-news">
+                <div class="row col-12 main-row" style="margin-left: 0px; margin-right: 0px;
+                padding-left: 30px;">    
+                    <div class="row row-main-news">
+                        <div class="col-12 col-md-6 main-news">
+                            <a class="main-news__border" href="https://g1.globo.com/sp/sao-paulo/noticia/2023/05/20/homem-e-baleado-durante-assalto-no-campo-belo-zona-sul-de-sp.ghtml">
+                                <figure class="card__figure">
+                                    <img width="634px" height="355px" 
+                                    src="./imagens/noticia2.jpg"
+                                    class="card__image"
+                                    title="Homem é baleado durante assalto em Campo Belo, Zona Sul de SP">
+                                </figure>
+                                <div class="card__content">
+                                    <p class="card__excerpt card__title main-card__title">
+                                        Homem é baleado durante assalto em Campo Belo, Zona Sul de SP
+                                    </p>
+                            <div style="height: 5px;"></div>
+                                    <p class="main-subtitle">
+                                        Um homem foi baleado na noite de sexta-feira (19) durante um assalto na região do Campo Belo, na Zona Sul de São Paulo. <br>
+                                        Uma câmera de segurança registrou o crime e é possível ver dois assaltantes, em duas motos, com mochilas de entregadores, parando próximo a um carro branco, que estava estacionado. <br>
+                                        A vítima passa andando sozinha na calçada e, logo depois, é abordada pelos bandidos. Eles encostam o homem na parede e roubam alguns objetos. Momentos depois, o homem coloca a mão na perna e cai.
+                                    </p>    
+                                </div>
+                            </a>
+                        </div>
+                <!--NOTÍCIA 1-->
+                        <div class="col-12 col-md-6 aside-news">
+                            <div class="col-6 news-columnL">
+                                <a class="main-news__border" href="https://g1.globo.com/sp/sao-paulo/noticia/2023/02/06/professora-e-esfaqueada-e-morta-por-ex-namorado-na-frente-do-filho-na-zona-sul-de-sp.ghtml">
+                                    <figure class="card__figure">
+                                        <img width="600px" height="300px" 
+                                        src="./imagens/noticia4.jpg"
+                                        class="card__image"
+                                        title="Professora é esfaqueada e morta por ex-namorado na frente do filho, na região do Brooklin">
+                                    </figure>
+                                    <div class="card__content">
+                                        <p class="card__excerpt card__title">
+                                            Professora é esfaqueada e morta por ex-namorado na frente do filho, na região do Brooklin
+                                        </p>
+                                <div style="height: 5px;"></div>
+                                        <p class="subtitle">
+                                            Número de feminicídios foi recorde em 2022. Sobrinha da professora Ana Rita Araújo ouviu os gritos de seu primo, filho da vítima. Suspeito está foragido.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                <!--NOTÍCIA 2-->
+                            <div class="col-6 news-columnR">
+                                <a class="main-news__border" href="https://g1.globo.com/sp/sao-paulo/noticia/2023/04/15/video-assalto-com-refens-em-salao-de-beleza-na-zona-sul-de-sp-termina-com-um-suspeito-morto.ghtml">
+                                    <figure class="card__figure">
+                                        <img width="600px" height="300px" 
+                                        src="./imagens/noticia1.jpg"
+                                        class="card__image"                   
+                                        title="Assalto com reféns em salão de beleza na Zona Sul de SP termina com um suspeito morto">
+                                    </figure>
+                                    <div class="card__content">
+                                        <p class="card__excerpt card__title card">
+                                            Assalto com reféns em salão de beleza na Zona Sul de SP termina com um suspeito morto
+                                        </p>
+                                <div style="height: 5px;"></div>
+                                        <p class="subtitle">
+                                            Suspeitos utilizaram pessoas que estavam no estabelecimento comercial como escudo humano na tentativa de fuga. Segundo a polícia, nenhuma das 10 vítimas ficaram feridas.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                <!--NOTÍCIA 3-->
+                            <div class="col-6 news-columnL">
+                                <a class="main-news__border" href="https://g1.globo.com/sp/sao-paulo/noticia/2023/05/05/pm-reage-a-tentativa-de-assalto-na-zona-sul-de-sp-uma-pessoa-morre.ghtml">
+                                    <figure class="card__figure">
+                                        <img width="600px" height="300px" 
+                                        src="./imagens/noticia3.jpg"
+                                        class="card__image"
+                                        title="PM reage a tentativa de assalto na Zona Sul de SP; uma pessoa morre">
+                                    </figure>
+                                    <div class="card__content">
+                                        <p class="card__excerpt card__title card">
+                                            PM reage a tentativa de assalto na Zona Sul de SP; uma pessoa morre
+                                        </p>
+                                <div style="height: 5px;"></div>
+                                        <p class="subtitle">
+                                            Segundo a polícia, um suspeito morreu no local e o outro conseguiu fugir. Caso aconteceu na madrugada desta sexta-feira (5), na Vila Andrade.
+                                    </p>
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                <!--NOTÍCIA 4-->
+                            <div class="col-6 news-columnR">
+                                <a class="main-news__border" href="https://g1.globo.com/sp/sao-paulo/noticia/2023/01/20/seguranca-de-loja-morre-baleado-com-7-tiros-na-zona-sul-de-sp-video-mostra-acao-de-criminosos-e-correria-na-rua.ghtml">
+                                    <figure class="card__figure">
+                                        <img width="600px" height="300px" 
+                                        src="./imagens/noticia5.jpg"
+                                        class="card__image"
+                                        title="Segurança de loja morre baleado com 7 tiros na região do Grajaú; vídeo mostra ação de criminosos e correria na rua">
+                                    </figure>
+                                    <div class="card__content">
+                                        <p class="card__excerpt card__title card">
+                                            Segurança de loja morre baleado com 7 tiros na região do Grajaú
+                                        </p>
+                                <div style="height: 5px;"></div>
+                                        <p class="subtitle">
+                                            Caso foi registrado na noite de quinta-feira (19). Com medo, os comerciantes fecharam as lojas mais cedo e colocaram cartazes de avisos nas portas.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>    
+            </div>       
+
+</main>
+<br>
+<footer>
+    <p  class="footer-bg"> &copy; 2023 Zona Sul Segura | Todos os direitos reservados</p>
+</footer>
+
+</body>
+
+</html>
